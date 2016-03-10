@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<extension key="org.civicoop.api.financialitem" type="module">
+  <file>financialitem</file>
+  <name>CiviCRM API FinancialItem Get</name>
+  <description>Extension to add API Entity FinancialItem Action Get to the CiviCRM API</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Erik Hommel</author>
+    <email>erik.hommel@civicoop.org</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">https://github.com/CiviCooP/org.civicoop.api.financialitem</url>
+    <url desc="Documentation">https://github.com/CiviCooP/org.civicoop.api.financialitem</url>
+    <url desc="Support">https://www.civicoop.org/</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2016-03-10</releaseDate>
+  <version>1.0</version>
+  <develStage>stable</develStage>
+  <compatibility>
+    <ver>4.4</ver>
+    <ver>4.6</ver>
+  </compatibility>
+  <comments>New extension</comments>
+  <civix>
+    <namespace>CRM/Financialitem</namespace>
+  </civix>
+</extension>

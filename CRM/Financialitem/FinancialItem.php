@@ -15,12 +15,12 @@ class CRM_Financialitem_FinancialItem {
    * @return array
    */
   public static function getValues($params) {
-    $result = array();
+    $result = [];
     $financialItem = new CRM_Financial_BAO_FinancialItem();
     $financialItem->copyValues($params);
     $financialItem->find();
     while ($financialItem->fetch()) {
-      $row = array();
+      $row = [];
       CRM_Core_DAO::storeValues($financialItem, $row);
       $result[] = $row;
     }
